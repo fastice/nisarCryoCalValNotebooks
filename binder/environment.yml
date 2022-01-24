@@ -19,7 +19,6 @@ dependencies:
   - param
   - pip
   - progressbar2
-  - qgis
   - rasterio
   - rioxarray
   - stackstac
