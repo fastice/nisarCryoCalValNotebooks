@@ -4,10 +4,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
+  - pip
   # This works around an issue with conda version not working
-  - typing_extensions=4.0.0
-  - pip:
-    - typing-extensions==4.0.1
+  - typing_extensions=4.0.0 
   - dask
   - datashader
   - fsspec
@@ -21,11 +20,12 @@ dependencies:
   - nbgitpuller
   - panel
   - param
-  - pip
+
   - progressbar2
   - rasterio
   - rioxarray
   - stackstac
   pip:
+    - typing-extensions==4.0.1
     - git+https://github.com/fastice/gimpfunc.git@master
-    - git+https://github.com/fastice/nisardev.git@master  
+    - git+https://github.com/fastice/nisardev.git@master
