@@ -1,13 +1,9 @@
 # Environment file for GIMP Notebooks
-name: nisar
+name: nisarCryoCalVal
 channels:
   - conda-forge
 dependencies:
   - python=3.8
-  # This works around an issue with conda version not working
-  - typing_extensions=4.0.0
-  - pip:
-    - typing-extensions==4.0.1
   - dask
   - datashader
   - fsspec
@@ -23,9 +19,10 @@ dependencies:
   - param
   - pip
   - progressbar2
+  - qgis
   - rasterio
   - rioxarray
   - stackstac
-  pip:
+  - pip:
     - git+https://github.com/fastice/gimpfunc.git@master
-    - git+https://github.com/fastice/nisardev.git@master  
+    - git+https://github.com/fastice/gimpqgis.git@master
