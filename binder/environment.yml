@@ -1,0 +1,31 @@
+# Environment file for GIMP Notebooks
+name: nisar
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  # This works around an issue with conda version not working
+  - typing_extensions=4.0.0
+  - pip:
+    - typing-extensions==4.0.1
+  - dask
+  - datashader
+  - fsspec
+  - gdal
+  - geopandas
+  - geoviews
+  - holoviews
+  - hvplot
+  - jupyter-panel-proxy
+  - jupyterlab>=3
+  - nbgitpuller
+  - panel
+  - param
+  - pip
+  - progressbar2
+  - rasterio
+  - rioxarray
+  - stackstac
+  pip:
+    - git+https://github.com/fastice/gimpfunc.git@master
+    - git+https://github.com/fastice/nisardev.git@master  
