@@ -11,6 +11,8 @@ This notebook is used to validate the requirement for NISAR:
 
 **The NISAR Project shall measure ice sheet (> 90% coverage, including both poles) and glaciers and ice-caps (> 80% coverage) horizontal velocity each cold season to an accuracy better than the sum of 3% of the horizontal velocity magnitude and 1 m/yr (1-sigma), at 100-m resolution in areas of slow deformation (< 50 m/yr).**
 
+Run the cells down to the login window, login with valid NASA Earth Data [Credentials](https://urs.earthdata.nasa.gov), the remaining cells can then be run with no further input.  
+
 # NISAR Examples [nisarExamples](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/nisarExamples.ipynb)
 
 This notebook demonstrates the functionality of some the tools written to create the validation notebooks. 
