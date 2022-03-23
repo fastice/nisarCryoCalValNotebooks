@@ -6,13 +6,11 @@ This repository contains the NISAR ice-sheet and glacier ATBD documents and the 
 This directory contains Word and PDF versions of the latest ice-sheet and glacier ATBD documents.
 
 ## calVal-Notebooks
-
 This directory contains fully functioning versions of the notebooks can be run by clicking on the binder icon above.
 
 To avoid compatability problems, use the [environment](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/binder/environment.yml) file in the binder directory for this repository and follow the conda install instructions found [here](https://github.com/fastice/GIMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb), which includes two other github repositories ([nisardev](https://github.com/fastice/nisardev) and [gimpfunc](https://github.com/fastice/gimpfunc)) needed to run these notebooks. 
 
 ### NISAR Slow Movement Validation Notebook [L2-SCI-667](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/L2-SCI-667-SlowMotion.ipynb)
-
 This notebook is used to validate the requirement for NISAR:
 
 **The NISAR Project shall measure ice sheet (> 90% coverage, including both poles) and glaciers and ice-caps (> 80% coverage) horizontal velocity each cold season to an accuracy better than the sum of 3% of the horizontal velocity magnitude and 1 m/yr (1-sigma), at 100-m resolution in areas of slow deformation (< 50 m/yr).**
