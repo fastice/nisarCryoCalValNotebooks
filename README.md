@@ -1,11 +1,17 @@
 [![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/nisarCryoCalValNotebooks.git/HEAD)
 # nisarCryoCalValNotebooks
-NISAR Cal/Val Notebooks
-This repository contains prototype notebooks for NISAR ice sheet and glacier cal/val activities. Fully functioning versions of the notebooks can be run by clicking on the binder icon above.
+This repository contains the NISAR ice-sheet and glacier ATBD documents and the prototype notebooks for NISAR ice sheet and glacier cal/val activities. 
+
+## ATBD-Documents
+This directory contains Word and PDF versions of the latest ice-sheet and glacier ATBD documents.
+
+## calVal-Notebooks
+
+This directory contains fully functioning versions of the notebooks can be run by clicking on the binder icon above.
 
 To avoid compatability problems, use the [environment](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/binder/environment.yml) file in the binder directory for this repository and follow the conda install instructions found [here](https://github.com/fastice/GIMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb), which includes two other github repositories ([nisardev](https://github.com/fastice/nisardev) and [gimpfunc](https://github.com/fastice/gimpfunc)) needed to run these notebooks. 
 
-# NISAR Slow Movement Validation Notebook [L2-SCI-667](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/L2-SCI-667-SlowMotion.ipynb)
+### NISAR Slow Movement Validation Notebook [L2-SCI-667](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/L2-SCI-667-SlowMotion.ipynb)
 
 This notebook is used to validate the requirement for NISAR:
 
@@ -13,7 +19,7 @@ This notebook is used to validate the requirement for NISAR:
 
 Run the cells down to the login window, login with valid NASA Earth Data [Credentials](https://urs.earthdata.nasa.gov), the remaining cells can then be run with no further input.  
 
-# NISAR Examples [nisarExamples](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/nisarExamples.ipynb)
+## [calVal-CodeExamples](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/nisarExamples.ipynb)
 
-This notebook demonstrates the functionality of some the tools written to create the validation notebooks. 
+This directory contains a notebook that demonstrates the functionality of some the tools written to create the validation notebooks. 
 
