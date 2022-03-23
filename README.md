@@ -23,4 +23,5 @@ This notebook is used to validate the requirement for NISAR:
 
 This directory contains a notebook that demonstrates the functionality of some the tools written to create the validation notebooks. 
 
-## [GPSpoints]()
+## [GPSpoints](https://github.com/fastice/nisarCryoCalValNotebooks/tree/main/GPSpoints)
+This directory contains real and potentially synthetic data used to test the cal/val notebook code.
