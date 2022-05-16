@@ -17,6 +17,14 @@ This notebook is used to validate the requirement for NISAR:
 
 **The NISAR Project shall measure ice sheet (> 90% coverage, including both poles) and glaciers and ice-caps (> 80% coverage) horizontal velocity each cold season to an accuracy better than the sum of 3% of the horizontal velocity magnitude and 1 m/yr (1-sigma), at 100-m resolution in areas of slow deformation (< 50 m/yr).**
 
+### [NISAR Fast Movement Validation Notebook: L2-SCI-668](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/calVal-Notebooks/L2-SCI-668-FastMotion.ipynb)
+This notebook is used to validate the requirement for NISAR:
+
+**The NISAR Project shall measure ice sheet horizontal velocity (90% coverage, including both poles) to an accuracy better than 3% of the horizontal velocity magnitude plus 5 m/yr (1-sigma), at 250-m resolution each cold season in areas of fast deformation (>50 m/yr).**
+
+### [NISAR Ice sheet velocity sampling Validation Notebook: L2-SCI-738](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/calVal-Notebooks/L2-SCI-738-Sampling.ipynb)
+This notebook is used to validate the requirement for NISAR:
+
 To run a demonstration of the notebook on binder click here: [![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/nisarCryoCalValNotebooks.git/HEAD)
 
 ## [calVal-CodeExamples](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/nisarExamples.ipynb)
