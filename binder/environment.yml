@@ -9,6 +9,7 @@ dependencies:
   - datashader
   - fsspec
   - gdal=3.4.2
+  - tiledb=2.7.1
   - geopandas
   - geoviews
   - holoviews
