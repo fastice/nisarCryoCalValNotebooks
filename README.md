@@ -25,7 +25,10 @@ This notebook is used to validate the requirement for NISAR:
 ### [NISAR Ice sheet velocity sampling Validation Notebook: L2-SCI-738](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/calVal-Notebooks/L2-SCI-738-Sampling.ipynb)
 This notebook is used to validate the requirement for NISAR:
 
-To run a demonstration of the notebook on binder click here: [![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/nisarCryoCalValNotebooks.git/HEAD)
+**The NISAR Project shall measure time-varying horizontal velocities of ice-sheets at near-weekly sampling intervals in areas of potential rapid (e.g., outlet glaciers) or seasonal change to an accuracy better than 3% of the horizontal velocitiy magnitude plus 10 m/yr (1-sigma) at 500-m resolution (> 80% coverage).**
+
+
+To run a demonstration of the notebooks on binder click here: [![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/nisarCryoCalValNotebooks.git/HEAD)
 
 ## [calVal-CodeExamples](https://github.com/fastice/nisarCryoCalValNotebooks/blob/main/nisarExamples.ipynb)
 
