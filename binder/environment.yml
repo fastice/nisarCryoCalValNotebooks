@@ -25,8 +25,9 @@ dependencies:
   - stackstac
   - tiledb=2.7.1
   - pip:
+    - git+http://github.com/developmentseed/rio-stac@master
     - git+https://github.com/fastice/grimpfunc.git@master
     - git+https://github.com/fastice/nisardev.git@main
-    - git+http://github.com/developmentseed/rio-stac@master
+    
     
     
